@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+import java.lang.*;
+public class TestSolution4
+{
+public static void main(String args[])throws IOException
+{
+BufferedReader br=new BufferedReader(new InputStreamReader(Sysetem.in));
+System.out.println("enter the strings1");
+String str1=br.readLine();
+System.out.println("enter the string2");
+String str2=br.readLine();
+Solution4 s=new Solution4();
+obj.embedWord(str1,str2);
+}
+}
